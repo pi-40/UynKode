@@ -27,7 +27,7 @@ jobs:
           COPY . .
           EOF
           
-          docker build -t ghcr.io/pi-40/UynKofe:1.0.0 .
+          docker build -t ghcr.io/pi-40/UynKode:1.0.0 .
 
       - name: Push to GitHub Packages
         run: docker push ghcr.io/pi-40/UynKode:1.0.0
