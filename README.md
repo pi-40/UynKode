@@ -26,7 +26,7 @@ neturl
 msgbox
 msgerr
 mousetog
-``
 sendkey
 sleepms
 debuglog
+``
